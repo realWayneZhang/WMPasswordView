@@ -12,6 +12,8 @@
 		2DAC506A21CF58CE00A58577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC506821CF58CE00A58577 /* Main.storyboard */; };
 		2DAC506C21CF58CF00A58577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC506B21CF58CF00A58577 /* Assets.xcassets */; };
 		2DAC506F21CF58CF00A58577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC506D21CF58CF00A58577 /* LaunchScreen.storyboard */; };
+		2DAC507921CF5A0000A58577 /* WMPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC507721CF5A0000A58577 /* WMPasswordView.swift */; };
+		2DAC507A21CF5A0000A58577 /* PasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC507821CF5A0000A58577 /* PasswordView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2DAC506B21CF58CF00A58577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DAC506E21CF58CF00A58577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DAC507021CF58CF00A58577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DAC507721CF5A0000A58577 /* WMPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMPasswordView.swift; sourceTree = "<group>"; };
+		2DAC507821CF5A0000A58577 /* PasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		2DAC506321CF58CE00A58577 /* WMPasswordViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2DAC507621CF5A0000A58577 /* WMPasswordView */,
 				2DAC506421CF58CE00A58577 /* AppDelegate.swift */,
 				2DAC506621CF58CE00A58577 /* ViewController.swift */,
 				2DAC506821CF58CE00A58577 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				2DAC507021CF58CF00A58577 /* Info.plist */,
 			);
 			path = WMPasswordViewDemo;
+			sourceTree = "<group>";
+		};
+		2DAC507621CF5A0000A58577 /* WMPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				2DAC507721CF5A0000A58577 /* WMPasswordView.swift */,
+				2DAC507821CF5A0000A58577 /* PasswordView.xib */,
+			);
+			path = WMPasswordView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 				2DAC506F21CF58CF00A58577 /* LaunchScreen.storyboard in Resources */,
 				2DAC506C21CF58CF00A58577 /* Assets.xcassets in Resources */,
 				2DAC506A21CF58CE00A58577 /* Main.storyboard in Resources */,
+				2DAC507A21CF5A0000A58577 /* PasswordView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DAC506721CF58CE00A58577 /* ViewController.swift in Sources */,
+				2DAC507921CF5A0000A58577 /* WMPasswordView.swift in Sources */,
 				2DAC506521CF58CE00A58577 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
